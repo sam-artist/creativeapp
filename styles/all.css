@@ -1,0 +1,339 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+  background-image: url('../images/drip.png');
+  background-position: top left;
+  background-repeat: repeat-x;
+}
+.bold{
+  font-weight: bold;
+}
+
+#name{
+font-size: 80px;
+
+background-color: #004d4d;
+
+}
+
+#logo{
+  width: 15%;
+  height: 54px;
+  position: absolute;
+}
+
+
+#navbar li{
+  font-size: 120%;
+  width: 10%;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 10%;
+  height: 38px;;
+  text-align: center;
+  font-size: 100%;
+  margin-top: 0;
+
+
+}
+
+
+#navbar #uniform{
+  background-color: #008080;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 50%;
+  padding-right: 50%;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+#navbar #other{
+
+  background-color:#00b3b3;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 50%;
+  padding-right: 50%;
+  text-align: center;
+  color: white;
+}
+
+
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+#navbar{
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 40%;
+  height: 54px;
+
+}
+
+header img,header nav {
+  display:inline-block;
+  vertical-align:middle;
+}
+header{
+  width: 100%;
+  height: 45px;
+  background-color:  #e6f3ff;
+}
+
+header, #navbar, .logo{
+  background-color:  #00b3b3;
+}
+
+.welcome,.games, .art, .music{
+  box-sizing: border-box;
+  background-color: white;
+  width: 84%;
+  height: 100%;
+  float:left;
+  text-align: center;
+  background-color: #00b3b3;
+
+}
+
+
+p{
+  font-size: 20px;
+  color: white;
+}
+.welcome {
+  color :white;
+}
+
+.music{
+
+  background-position: top left;
+}
+
+
+
+.music h3{
+background-color: #008080;
+}
+
+.art img, .games img{
+  width: 100%;
+  height: 900px;
+
+}
+.music img{
+  width: 100%;
+  height: 1200px;
+}
+
+
+.rightimage, .leftimage{
+  width: 8%;
+  background-color: white;
+  height: 900px;;
+
+  background-image:url('../images/drip.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.leftimage{
+  float: left;
+}
+
+.rightimage{
+  float: right;
+}
+
+
+#art, #music, #games{
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  padding: 5%;
+  position: relative;
+  background-color: #008080;
+}
+#art img, #music img, #games img{
+  width: 100%;
+  height: auto;
+}
+
+.pocket{
+  background-color: #004d4d;
+  position: absolute;
+  width: 80%;
+  height: 180px;
+  top: 10%;
+  left: 10%;
+  overflow: hidden;
+  opacity: .2;
+}
+
+.overlay{
+  position: absolute;
+  width:67%;
+  height:100px;
+  background-color: white;
+  overflow: hidden;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+  background-color: white;
+}
+
+.ideas{
+  margin-top: 15%;
+  width: 50%;
+  background-color: #008080;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+
+#music:hover .overlay , #games:hover .overlay, #art:hover .overlay{
+  transform: scale(1)
+
+}
+
+.text {
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.welcome p, .games p, .music p, .art p{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.music h3, .music h2{
+  font-size: 30px;
+  color:#003333;
+}
+
+
+.title-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 120px;
+}
+
+
+.counter{
+margin-bottom: 30px;
+}
+
+.counter .cont1{
+  width: 40%;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: white;
+
+}
+.counter .cont2{
+  width: 20%;
+  height: 150px;
+  margin-right: 10%;
+  bottom: 10%;
+  font-size: 20px;
+  color: white;
+
+}
+
+.cont2{
+  padding: 10px;
+  background-color:  #008080;
+  padding-right: 200px;
+}
+
+.cont2 img{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+}
+.cont1,.cont2{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+}
+.cont1 h4, .cont2 h4{
+  color: white;
+  font-style: italic;
+}
+.counter div:hover {
+  background-color:  #008080;
+}
+.art-cont{
+width: 80%;
+height: 900px;
+margin-left: 10%;
+margin-right: 10%;
+border: ridge 10px #cc9966;
+}
+.art-cont img{
+width: 100%;
+height: 100%;
+}
+
+
+.hiddenError{
+  display: none;
+  visibility: hidden;
+  background-color: #ff8080;
+}
+
+
+
+.message{
+  color: white;
+  font-size: 30px;
+  text-align:center;
+}
+
+.submit{
+  background-color: white;
+  width: 84%;
+  height: 900px;
+  float:left;
+  text-align: center;
+  background-color:#00b3b3;
+  background-image: url('../images/flower.jpeg');
+}
+.submit p{
+width: 1000px;
+font-size: 50px;
+color: white;
+margin-top: 20%;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+::placeholder{
+font-family: sans-serif;
+font-weight: bold;
+}
+
+::-ms-input-placeholder{
+font-family: sans-serif;
+}
