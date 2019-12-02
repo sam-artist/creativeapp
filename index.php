@@ -59,68 +59,128 @@ if (isset($submit)) {
 <body>
   <?php include("includes/header.php"); ?>
 
-  <div class="leftimage">
-  <!-- empty container for sides -->
+<div class="images">
+
+
+
+
+<img id="image1" src="images/girl3.jpeg" alt="girl">
+<div class="caption">
+<p class="head">Embolden Your Creativity</p>
+<p class="secondhead">Mediation Through the Arts</p>
+<p class="bodytext">Lorem ipsum dolor sit.</p>
+</div>
+
+
+</div>
+
+
+
+
+
+
+  <div class="content">
+
+    <div class="box1">
+
+
+    <img id="image2" src="images/girl.jpeg" alt="girl">
+
+    <div class="description">
+        <h2 class="top">About Blog</h2>
+        <p>
+          <span class="bold"> Asthete-</span>"a person who has or affects to have a special appreciation of art and beauty."
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        <br>
+
+          <p><span class=bold> Mood-</span>"a temporary state of mind or feeling."
+            On Asthete we hope to inspire your mood and state of mind.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+    </div>
+
   </div>
 
-  <div class="welcome">
-    <br>
-    <br>
-    <h1 id="name">Asthete</h1>
-    <p> Welcome to Asthete, we hope you enjoy the content we have to offer!</p>
-    <h2>About Us </h2>
-    <p>
-      <span class=bold> Asthete-</span>"a person who has or affects to have a special appreciation of art and beauty."
-      Asthete is a website where we post about article--which we define as music, games, and
-      traditional art including paintings, drawing...etc. We utilize these mediums
-      in hopes of you connecting emotionally with them</p>
-      <p><span class=bold> Mood-</span>"a temporary state of mind or feeling."
-        On Asthete we hope to inspire your mood and state of mind.
-        From our collection of works you can find art, photography, music, and popular games.
-        On our art page you may find painting or drawing that we believe could inspire your mood,
-        along with questions you can utilize to help you connect more . On our music page
-        you can find a selection of music that we hope can inspire emotions such as motivation,
-        or love. On our games page, you can find games that currently inspire us and we hope that will
-        inspire you also. You can also suggest content that we can post also, Happy hunting!
-      </p>
 
-      <br>
+<div class="box2">
+
+
+    <div class="description2">
+        <h2 class="top">Find you Niche</h2>
+        <p>a person who has or affects to have a special appreciation of art and beauty."
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        <br>
+
+
+    </div>
+
+    <img id="image3" src="images/girl2.jpeg" alt="girl">
+
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+      <!-- <br>
       <div id="music">
         <div class="pocket"> </div>
-        <img src="images/music.png" alt="music">
+        <img src="images/music.png" alt="music"> -->
         <!-- source: https://pixabay.com/en/music-notes-abstract-159870/ -->
 
-        <div class="overlay">
+        <!-- <div class="overlay">
           <div class="text">Music</div>
         </div>
-      </div>
+      </div> -->
 
 
 
-      <div id="games">
+      <!-- <div id="games">
         <div class="pocket"> </div>
-        <img src="images/games.png" alt="games">
+        <img src="images/games.png" alt="games"> -->
         <!-- source:http://maxpixel.freegreatpicture.com/Paint-Art-Abstract-Background-Texture-Colorful-2468874 -->
         <!-- <p> Games</p> -->
-        <div class="overlay">
+        <!-- <div class="overlay">
           <div class="text">Games</div>
         </div>
-      </div>
+      </div> -->
 
-      <div id="art">
+      <!-- <div id="art">
         <div class="pocket"> </div>
-        <img src="images/art.jpg" alt="art">
+        <img src="images/art.jpg" alt="art"> -->
         <!-- source:http://maxpixel.freegreatpicture.com/Paint-Art-Abstract-Background-Texture-Colorful-2468874 -->
-        <div class="overlay">
+        <!-- <div class="overlay">
           <div class="text">Art</div>
         </div>
-        <!-- <p>Art</p> -->
       </div>
-      <br>
+      <br> -->
 
 
       <div class="ideas">
-        <h1> You can submit ideas ideas for playlist, art and games here!   </h1>
+        <h1 class="bold"> Leave a comment</h1>
         <form method="post"  id="subform"  novalidate>
           <div>
             <label for="firstname">*First Name:</label>
@@ -151,7 +211,6 @@ if (isset($submit)) {
         <br>
         <span class="errorContainer <?php if ($commentValid)
         { echo($HIDDEN_ERROR_CLASS);} ?>" id="commentError">
-        Do you have a request?
       </span>
     </div>
 
@@ -160,13 +219,21 @@ if (isset($submit)) {
     </div>
   </form>
 </div>
+
+
+
+
+<footer>
+<div class="first_info">
+<span class="bold" >Contact:
+creativeapp@gmail.com</span>
+<p>
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+Duis aute irure.
+</p>
 </div>
 
-
-<div class="rightimage">
-<!-- empty container for sides -->
-</div>
-
-
+</footer>
 </body>
 </html>

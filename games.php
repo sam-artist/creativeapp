@@ -12,10 +12,9 @@ include("includes/uniform.php");
 </head>
 <body>
   <?php include("includes/header.php"); ?>
-  <div class="leftimage">
-  </div>
 
-  <div class="games">
+
+  <div class="media">
     <img src="images/control.jpeg" alt="games">
     <h1 class="title-centered"> Games </h1>
 
@@ -120,7 +119,6 @@ include("includes/uniform.php");
 
                             </div>
 
-    <div class="rightimage">
-    </div>
+
 </body>
 </html>

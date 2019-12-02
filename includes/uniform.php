@@ -1,9 +1,11 @@
 <?php
 $pages = array(
-  "index"=>"Home",
-  "music"=>"Music",
-  "games"=>"Games",
-  "art"=>"Art");
+    "art"=>"Art",
+  "media"=>"Media",
+    "index"=>"About",
+
+
+);
 
   function uniform_page($array, $current_page){
     foreach ($array as $pg_id => $pg_name) {

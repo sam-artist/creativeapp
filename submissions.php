@@ -31,15 +31,12 @@ function text_print($firstName, $lastName, $comment){
 <body>
   <?php include("includes/header.php"); ?>
 
-  <div class="leftimage">
-  </div>
 
   <div class="submit">
     <p>
       <?php echo text_print($firstName, $lastName, $comment); ?>
     </p>
   </div>
-  <div class="rightimage">
-  </div>
+
 </body>
 </html>
