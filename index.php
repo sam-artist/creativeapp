@@ -107,7 +107,9 @@ if (isset($submit)) {
           </p>
     </div>
 
+
   </div>
+<hr>
 
 
 <div class="box2">
@@ -124,6 +126,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<br><br>
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         <br>
 
@@ -136,49 +142,9 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
   </div>
 
 
-
+<hr>
 
 </div>
-
-
-
-
-
-
-      <!-- <br>
-      <div id="music">
-        <div class="pocket"> </div>
-        <img src="images/music.png" alt="music"> -->
-        <!-- source: https://pixabay.com/en/music-notes-abstract-159870/ -->
-
-        <!-- <div class="overlay">
-          <div class="text">Music</div>
-        </div>
-      </div> -->
-
-
-
-      <!-- <div id="games">
-        <div class="pocket"> </div>
-        <img src="images/games.png" alt="games"> -->
-        <!-- source:http://maxpixel.freegreatpicture.com/Paint-Art-Abstract-Background-Texture-Colorful-2468874 -->
-        <!-- <p> Games</p> -->
-        <!-- <div class="overlay">
-          <div class="text">Games</div>
-        </div>
-      </div> -->
-
-      <!-- <div id="art">
-        <div class="pocket"> </div>
-        <img src="images/art.jpg" alt="art"> -->
-        <!-- source:http://maxpixel.freegreatpicture.com/Paint-Art-Abstract-Background-Texture-Colorful-2468874 -->
-        <!-- <div class="overlay">
-          <div class="text">Art</div>
-        </div>
-      </div>
-      <br> -->
-
-
       <div class="ideas">
         <h1 class="bold"> Leave a comment</h1>
         <form method="post"  id="subform"  novalidate>
