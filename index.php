@@ -54,6 +54,7 @@ if (isset($submit)) {
 
   <title>Home</title>
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="all" />
 </head>
 
 <body>
@@ -172,6 +173,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
       <div>
         <label for="comment">*Comments:</label>
+      
         <textarea type="text" id="comment" placeholder="Please leave a comment"
         name="comment" rows="4" cols="50" required><?php echo($comment);?></textarea>
         <br>

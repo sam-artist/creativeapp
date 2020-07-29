@@ -1,3 +1,5 @@
+@media only screen and (min-width: 750px) {
+
 *{
 font-family: Arial, Helvetica, sans-serif;
 padding: 0;
@@ -43,25 +45,21 @@ font-size: 80px;
 
 
 #navbar li{
-width: 1%;
   display: inline-block;
   font-weight: bold;
   margin-right: 5%;
   height: 38px;;
-  margin-top: 13px;
+  margin-top: 10px;
   float: right;
 }
 
-#navbar:hover{
-  /* background-color: rgba(234,166,123,1); */
-}
 
 #navbar a{
   font-family: Arial;
   text-decoration: none;
   font-size: 12px;
   color: black;
-letter-spacing: 3px;
+  letter-spacing: 3px;
 
 }
 
@@ -69,10 +67,10 @@ letter-spacing: 3px;
 
 #navbar #uniform{
   /* background-color: rgba(234,166,123,1); */
-  padding-top: 5px;
+  /* padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 50%;
-  padding-right: 50%;
+  padding-right: 50%; */
   text-align: center;
   font-weight: bolder;
   color: white;
@@ -83,19 +81,6 @@ color:   #b2010a
 
 
 }
-
-
-#navbar #other{
-
-  /* background-color:#00b3b3;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-left: 50%;
-  padding-right: 50%;
-  text-align: center;
-  color: white; */
-}
-
 
 
 
@@ -113,6 +98,8 @@ header{
   width: 100%;
   height: 45px;
   /* background-color:  #e6f3ff; */
+  box-shadow: 1px 1px  #d9d9d9;
+
 }
 
 header, #navbar, .logo{
@@ -157,7 +144,7 @@ p{
 
 
 width: 100%;
-height: 850px;
+/* height: 950px; */
 }
 
 .images #image1{
@@ -181,16 +168,14 @@ height:600px;
 
 }
 
-#image1, #image2, #image3, .caption{
-float: left;
-}
 
+#image1, #image2, #image3, .caption{
+}
 
 
 .description, .description2{
 float:left;
 margin-left: 2%;
-height: 550px;
 width: 58%;
 letter-spacing: 5px;
 font-family: Arial;
@@ -221,6 +206,8 @@ margin-top: 5%;
 width: 45%;
 height: auto;
 line-height: 50px;
+bottom: 10%;
+right: 50%;
 
 }
 
@@ -272,9 +259,10 @@ color: white;
 height: 100%;
 padding: 2%;
 margin-left: 35%;
-/* background-color:  rgba(251,238,230,1) ; */
-float: left;
+background-color:  rgba(251,238,230,1) ;
+/* float: left; */
 margin-top: 5%;
+
 
 }
 .ideas div{
@@ -336,7 +324,6 @@ margin-top: 6%;
 margin-left: 10%;
 margin-right: 10%;
 width: 80%;
-height: 1000px;
 line-height: 25px;
 
 }
@@ -375,6 +362,7 @@ height:auto;
 .cont2, .cont1{
 float: left;
 }
+
 
 
 
@@ -458,4 +446,6 @@ color: black;
 width: 20%;
 margin-top:1%;
 margin-left: 1%;
+}
+
 }

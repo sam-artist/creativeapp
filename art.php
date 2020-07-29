@@ -9,12 +9,13 @@ include("includes/uniform.php");
   <meta charset="utf-8">
   <title>Art</title>
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="all" />
 </head>
 <body>
   <?php include("includes/header.php"); ?>
 
 
-  <div class="content">
+  <div class="content art-content">
       <span class="bold2"> Art- Decide How you feel. Choose your mood!</span>
         <p> “The purpose of art is washing the dust of daily life off our souls.
           ” ― <span class="bold">Pablo Picasso</span></p>

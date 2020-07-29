@@ -12,6 +12,7 @@ include("includes/array.php");
   <meta charset="utf-8">
   <title>Media</title>
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="all" />
 </head>
 <body>
   <?php include("includes/header.php");
@@ -24,8 +25,9 @@ include("includes/array.php");
 
 
 
-
   <div class="content">
+    <div class="media_intro">
+
     <h1 class="bold"> Meditate Through Music</h1>
     <br>
     <p> "Music has been scientifically proven to have a powerful effect on the brain.
@@ -35,6 +37,9 @@ include("includes/array.php");
       Let’s look at some of the ways music can aid in the healing and stimulation of the human brain."
       </p>
       <h3 class="bold" >Music For The Mood: Create a Playlist</h3>
+
+    </div>
+
 
       <div class="counter">
         <div class="cont1">
