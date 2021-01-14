@@ -1,0 +1,79 @@
+@media(min-width: 700px) and (max-width: 999px){
+
+h1{
+  font-size: 3.5rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+
+
+a{
+  font-size:0.8rem;
+}
+
+h2{
+  font-size: 30px;
+  
+}
+h3{
+    font-size: 3rem;
+
+}
+h4{
+   font-size: 2rem;
+}
+
+#caption{
+top: 20%;
+left:5%;
+}
+
+
+
+
+}
+
+
+
+@media(min-width: 500px) and (max-width: 700px){
+
+h1{
+  font-size: 3rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+
+
+a{
+  font-size:0.8rem;
+}
+
+h2{
+  font-size: 30px;
+  
+}
+h3{
+    font-size: 1.5rem;
+
+}
+h4{
+   font-size: 1rem;
+}
+
+#caption{
+top: 20%;
+left:5%;
+}
+
+
+
+
+
+
+}
