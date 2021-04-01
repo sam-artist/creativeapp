@@ -24,8 +24,8 @@ include("includes/uniform.php");
         allow people to escape into another world. Like art games rely on visuals, and
         interpretation. Here are some of the games that inspire us and hopefully you!</h2>
 
-        <div class="counter">
-          <div class="cont1">
+        <div class="playlist">
+          <div class="playlist_text">
             <h4>Looking to be enveloped into a world of amazing environments with beautiful
               scenery, and effects? Witcher 3 can help you with that</h4>
               <p>This is an amazing game where player play as the protagonist, Geralt, as he
@@ -39,14 +39,14 @@ include("includes/uniform.php");
               </p>
               <span class="bold"> Wither 3: Wild hunt. May 19, 2015. Avaliable for Microsoft Windows & PlayStation 4
                 Xbox One</span>
-              </div><div class=cont2><img src="images/game1.jpg" alt="game1">
+              </div><div class=playlist_image><img src="images/game1.jpg" alt="game1">
                 <!-- source: https://www.flickr.com/photos/bagogames/14803622368 -->
               </div></div><br>
 
 
 
-              <div class="counter">
-                <div class="cont1">
+              <div class="playlist">
+                <div class="playlist_text">
                   <h4>Looking to be captivated by amazing envirnments, exciting jumps and climbs,
                     and realize you inner explorer? Well Rise of The Tomb raider does just that!
                   </h4>
@@ -63,7 +63,7 @@ include("includes/uniform.php");
                       PlayStation 4, Xbox One, Xbox 360, Microsoft Windows, Xbox One X, Linux,
                       Macintosh operating systems</span>
                   </div>
-                  <div class=cont2><img src="images/game2.jpg" alt="game2">
+                  <div class=playlist_image><img src="images/game2.jpg" alt="game2">
                       <!-- source:https://www.google.com/search?q=rise+of+the+tomb+raider&tbm=isch&tbas=0&
                       source=lnt&sa=X&ved=0ahUKEwirwJ2MhcfZAhUs4IMKHSQTAkkQpwUIHw&biw=1536&bih=709&dpr
                       =2.5#imgrc=L1ZViPLBChODDM: -->
@@ -71,8 +71,8 @@ include("includes/uniform.php");
 
                     <br>
 
-                    <div class="counter">
-                      <div class="cont1">
+                    <div class="playlist">
+                      <div class="playlist_text">
                         <h4>Looking for a guilty pleasure that allows you to build a world of your own?
                           Play minecraft!.
                         </h4>
@@ -87,7 +87,7 @@ include("includes/uniform.php");
                             Mac OS X, Linux, Android, iOS, Windows Phone, Xbox 360 & One,
                             PlayStation 3, 4 & vita, Raspberry Pi, Universal Windows Platform, Wii U, Nintendo Switch
                             New Nintendo 3DS, Apple TV, Amazon Fire TV</span>
-                            <p></div><div class=cont2>
+                            <p></div><div class=playlist_image>
                               <img src="images/game3.png" alt="game3">
                               <!-- source:https://www.google.com/search?q=rise+of+the+tomb+raider&tbm=isch&tbas=0&
                               source=lnt&sa=X&ved=0ahUKEwirwJ2MhcfZAhUs4IMKHSQTAkkQpwUIHw&biw=1536&bih=709&dpr
@@ -97,9 +97,9 @@ include("includes/uniform.php");
 
                           <br>
 
-                          <div class="counter">
+                          <div class="playlist">
 
-                            <div class="cont1">
+                            <div class="playlist_text">
                               <h4>Looking for more adventure! Here's The Legend of Zelda: Breath of the Wild</h4>
                               <p>Play as Zelda as you explore at your own pace, and collect items such as
                                 armor, weapons, and food, with multiple uses. complete puzzles, and side-quests.
@@ -110,7 +110,7 @@ include("includes/uniform.php");
                                 <span class="bold"> The Legend of Zelda: Breath of the Wild. March 3, 2017. Avaliable
                                   one Nintendo Switch, Wii U</span>
                                 </div>
-                                <div class=cont2>
+                                <div class=playlist_image>
                                   <img src="images/game4.jpg" alt="game4">
                                   <!-- source: https://www.zelda.com/breath-of-the-wild/ -->
                                 </div>

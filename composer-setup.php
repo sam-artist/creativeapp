@@ -433,7 +433,7 @@ function showWarnings($warnings)
 {
     if (!empty($warnings)) {
         out('Some settings on your machine may cause stability issues with Composer.', 'error');
-        out('If you encounter issues, try to change the following:', 'error');
+        out('If you enplaylist issues, try to change the following:', 'error');
         outputIssues($warnings);
     }
 }

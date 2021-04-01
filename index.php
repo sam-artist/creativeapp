@@ -52,40 +52,42 @@ if (isset($submit)) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes">
     <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="styles/desktop.css" media="all" />
     <link rel="stylesheet" type="text/css" href="styles/tablet.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="all" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="styles/desktop.css" media="all" />
+
+
+    </head>
 
 <body>
-  <?php include("includes/header.php"); ?>
+  <?php include("includes/navigation.php"); ?>
 
-  <div>
+  <!-- header tab -->
+  <div id="headContent">
     <img id="header-image" src="images/girl3.png" alt="girl">
     <div id="caption">
-      <h1 id="caption_h1">Embolden Your <br>Creativity</h1>
+      <h1>Embolden Your Creativity</h1>
       
-      <h4 id="caption_h3">Mediation Through the Arts</h4>
+      <p>Mediation Through the Arts</p>
       
-      <a id="caption_button" class="bold" href="#image2">Learn More</a>
+      <a class="bold" href="#image2">Learn More</a>
     </div>
     <br>
   </div>
+  
 
-
+  <!-- cotent tab -->
   <div class="content">
     
         <img id="blog-image" src="images/girl.jpeg" alt="girl">
-        <div class="vertical-spacer"></div>
-
+        <div class="horizontal-spacer"></div>
         <div class="description">
-          <h2 >About Blog</h2>
-          <div class="horizontal-spacer"></div>
+          <h2>About Blog</h2>
 
           <p>
             <span class="bold"> Asthete-</span>"a person who has or affects to have a special appreciation of art and beauty."
-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
           eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
@@ -98,19 +100,15 @@ if (isset($submit)) {
  
 
 
-  <div class="horizontal-spacer"></div>
 
   <hr>
 
-  <div class="horizontal-spacer"></div>
 
   
 
-      <div class="horizontal-spacer"></div>
 
       <div class="description">
-          <h2 class="top">Find you Niche</h2>
-          <div class="horizontal-spacer"></div>
+          <h2 >Find you Niche</h2>
           <p>a person who has or affects to have a special appreciation of art and beauty."
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -128,7 +126,7 @@ if (isset($submit)) {
           </p>
       </div>
 
-      <div class="vertical-spacer"></div>
+      <div class="horizontal-spacer"></div>
 
       <img id="blog-image" src="images/girl2.jpeg" alt="girl">
 
@@ -181,8 +179,7 @@ if (isset($submit)) {
     </form>
   </div>
 
-  <div class="horizontal-spacer"></div>
-  <div class="horizontal-spacer"></div>
+
 
 
     <footer>
